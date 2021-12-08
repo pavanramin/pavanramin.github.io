@@ -1,6 +1,6 @@
 let API_key = '';
 //If you have an API key, replace star in the following string with your key and uncomment the next line//
-//let API_key = ''?registrationkey= *''//
+//let API_key = '?registrationkey= *'//
 
 let supersector = {
   '00': 'Total nonfarm',
