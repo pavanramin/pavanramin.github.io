@@ -159,7 +159,6 @@ for(let industry in supersector) {
   xhr.responseType = 'json';
   let startQuery = 'https://api.bls.gov/publicAPI/v2/timeseries/data/CEU';
   let endQuery = '00000001' + API_key;
-  //let endQuery = '00000001?registrationkey=dd32d8268bfa4070b3b49adc1e07e69f';
   xhr.open('GET', startQuery + industry + endQuery);
   xhr.send();
 }
