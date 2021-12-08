@@ -124,7 +124,7 @@ function responseReceivedHandler() {
   if(this.status == 200) {
     console.log(this.response);
     let graphLine = {
-      label: 'Economic Sector Name',
+      label: 'Super Sector Name',
       data: [],
       borderColor: CHART_COLORS[colors[count]],
       backgroundColor: CHART_COLORS_50_Percent[colors[count]],
